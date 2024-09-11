@@ -1,0 +1,88 @@
+.cabeçalho a{
+    text-decoration: none;
+    color: rgb(255, 225, 225);
+    margin: 100px;
+ 
+}
+.cabeçalho li{
+    background-color: black;
+    padding: 10px 10px;
+    list-style: none;
+    align-items: flex-start;
+   
+}
+.cabeçalho ul{
+    display: flex;
+}
+.cabeçalho{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items:flex-start;
+ 
+ 
+}
+#logo{
+    display: flex;
+    align-self: center;
+}
+body {
+    background-image: url(unsplash_NTYYL9Eb9y8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.noticias{
+    background-color: black;
+    margin:auto;
+    display:block;
+    padding:20px 20px;
+    width: 1000px;
+   
+}
+.noticias h1{
+    color:salmon;
+    align-items: center;
+    text-align: center;
+     padding: 1px 1px;
+     font-size: 50px;
+}
+.noticias h6{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+#Artigos{
+    display: flex;
+    width: 80%;
+    margin: 2rem auto;
+    justify-content: space-around;
+    color: white
+}
+#Artigos article{
+    width: 25%;
+    padding: 10px;
+    border: 2px solid rgb(190, 190, 190);
+    border-radius: 8px;
+}
+article h2{
+    text-align: center;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.linha{
+    display: flex;
+    justify-content: center;
+}
+
+.finalzinho{
+    background-color: black;
+    color: aliceblue;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+    border: 10px;
+}
